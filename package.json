@@ -1,0 +1,43 @@
+{
+  "name": "bucanero-router",
+  "version": "1.0.0",
+  "description": "router extension for bucanero web framework with json schema based input validation",
+  "main": "index.js",
+  "scripts": {
+    "test": "node ./test/index.js | tap-spec"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zorro-del-caribe/bucanero-router.git"
+  },
+  "keywords": [
+    "bucanero",
+    "web",
+    "koa",
+    "koajs",
+    "router",
+    "route",
+    "handler",
+    "handle",
+    "input",
+    "validation",
+    "json",
+    "schema"
+  ],
+  "author": "Laurent Renard",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/zorro-del-caribe/bucanero-router/issues"
+  },
+  "homepage": "https://github.com/zorro-del-caribe/bucanero-router#readme",
+  "dependencies": {
+    "koa-json-schema": "^1.0.0",
+    "koa-router": "^5.4.0"
+  },
+  "devDependencies": {
+    "bucanero": "git+https://github.com/zorro-del-caribe/bucanero.git",
+    "supertest": "^2.0.0",
+    "tap-spec": "^4.1.1",
+    "tape": "^4.6.0"
+  }
+}
